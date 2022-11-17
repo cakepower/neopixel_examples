@@ -1,4 +1,4 @@
-let strip = neopixel.create(DigitalPin.P11, 8, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P13, 8, NeoPixelMode.RGB)
 strip.setBrightness(20)
 strip.showColor(neopixel.colors(NeoPixelColors.Black))
 basic.pause(100)
